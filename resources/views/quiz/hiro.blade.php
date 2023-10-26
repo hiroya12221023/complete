@@ -199,6 +199,57 @@
 .menu:hover {
     color: orange;
 }
+
+@media screen and (max-width: 767px) {
+    /* スマートフォン向けのスタイルを指定 */
+
+    body {
+        font-size: 14px; /* フォントサイズを調整 */
+    }
+
+    header {
+       max-width: 100%;
+  height: atuo;
+}
+.separator, .overview, .features, .tatu, .quizzzz {
+    padding: 0 10px; /* 左右に10ピクセルのパディングを追加 */
+}
+header img {
+            height: 60px;
+            width: auto; /* 幅は自動的に調整されます */
+            padding: 0px 20px;
+        }
+
+    .separator {
+        margin: 0 auto; /* マージンを調整 */
+    }
+
+    .hamburger-icon {
+        padding: 0 10px; /* パディングを調整 */
+    }
+
+    .menu {
+        padding: 10px; /* パディングを調整 */
+    }
+
+    .menu a {
+        font-size: 14px; /* フォントサイズを調整 */
+        margin-bottom: 5px; /* マージンを調整 */
+    }
+
+    .tomo, .quiz {
+        margin-top: 50px; /* マージンを調整 */
+        width: auto; /* 横幅を自動調整 */
+    }
+    
+
+    .quiz input[type="text"] {
+        width: 100%; /* テキスト入力フィールドの横幅を100%に設定 */
+        margin-bottom: 10px; /* マージンを調整 */
+    }
+
+    /* 他の要素やスタイルを調整 */
+}
     </style>
 </head>
     <body>
@@ -256,7 +307,6 @@
 その後、その単語に関連したクイズ問題が出題されるのでそれを解いてください。実際にプレイした方がわかりやすいので</br>
 早速やってみましょう！↓のボタンをクリックしてね
      <form action="/quiz" method="get">
-        @csrf
         <button type="submit">クイズに挑戦する</button>
         </form>
 

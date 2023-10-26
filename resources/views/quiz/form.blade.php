@@ -186,7 +186,8 @@ a:hover {
 .overview:hover {
     color: orange;
 }
-    @media screen and (max-width: 767px) {
+   
+ @media screen and (max-width: 767px) {
     /* スマートフォン向けのスタイルを指定 */
 
     body {
@@ -206,6 +207,9 @@ header img {
     .separator {
         margin: 0 auto; /* マージンを調整 */
     }
+    .separator, .overview, .features, .tatu, .quizzzz {
+    padding: 0 10px; /* 左右に10ピクセルのパディングを追加 */
+}
 
     .hamburger-icon {
         padding: 0 10px; /* パディングを調整 */
@@ -233,6 +237,8 @@ header img {
 
     /* 他の要素やスタイルを調整 */
 }
+    /* 他の要素やスタイルを調整 */
+}
 }
     </style>
     </head>
@@ -240,7 +246,7 @@ header img {
     <header>
     <img src="{{ asset('/images/aa.png') }}" alt="あ">
     <div class="separator"></div>
-    <a href="/#overview" class="overview">aa概要</a>
+    <a href="/#overview" class="overview">概要</a>
     <div class="separator"></div>
    <a href="/#feature-section" class="features">機能</a>
     <div class="separator"></div>
