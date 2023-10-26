@@ -77,19 +77,19 @@ header img {
             padding: 0px 200px;
         }
 
-       header {
+        header {
     position: fixed;
     display: flex; /* 横並びにするために追加 */
   justify-content: space-around; /* 子要素を均等に配置 */
     align-items: center;
     width: 100%; /* 画面幅いっぱいに広げる */
     border-bottom: 2px solid #000;
-    padding: 0px -100px;
+    padding:-30px -100px;
     z-index: 1000;
     transition: color 0.3s;
     margin-bottom: 520px; /* 下部に余白を追加 */
    background-color: white;
-   heigit:60px;
+   height: 70px;
 }
 
         .header-text {
@@ -200,14 +200,14 @@ header img {
         }
 
     .separator {
-        margin: 0 auto; /* マージンを調整 */
+        padding: 0 5px; /* マージンを調整 */
     }
     .separator, .overview, .features, .tatu, .quizzzz {
     padding: 0 5px; /* 左右に10ピクセルのパディングを追加 */
 }
 
     .hamburger-icon {
-        padding: 0 10px; /* パディングを調整 */
+        padding: 0 5px; /* パディングを調整 */
     }
 
     .menu {

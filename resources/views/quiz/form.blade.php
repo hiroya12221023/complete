@@ -208,15 +208,15 @@ header img {
         margin: 0 auto; /* マージンを調整 */
     }
     .separator, .overview, .features, .tatu, .quizzzz {
-    padding: 0 10px; /* 左右に10ピクセルのパディングを追加 */
+    padding: 0 5px; /* 左右に10ピクセルのパディングを追加 */
 }
 
     .hamburger-icon {
-        padding: 0 10px; /* パディングを調整 */
+        padding: 0 tpx; /* パディングを調整 */
     }
 
     .menu {
-        padding: 10px; /* パディングを調整 */
+        padding: 5px; /* パディングを調整 */
     }
 
     .menu a {
@@ -225,7 +225,7 @@ header img {
     }
 
     .tomo, .quiz {
-        margin-top: 50px; /* マージンを調整 */
+        margin-top: 100px; /* マージンを調整 */
         width: auto; /* 横幅を自動調整 */
     }
     
@@ -234,11 +234,6 @@ header img {
         width: 100%; /* テキスト入力フィールドの横幅を100%に設定 */
         margin-bottom: 10px; /* マージンを調整 */
     }
-
-    /* 他の要素やスタイルを調整 */
-}
-    /* 他の要素やスタイルを調整 */
-}
 }
     </style>
     </head>

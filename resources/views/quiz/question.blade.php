@@ -25,7 +25,7 @@
     transition: color 0.3s;
     margin-bottom: 520px; /* 下部に余白を追加 */
    background-color: white;
-   height: 40px;
+   height: 70px;
 }
 
         .header-text {
@@ -199,7 +199,7 @@ quizzzz:hover,
   height: atuo;
 }
 header img {
-            height: 60px;
+            height: 40px;
             width: auto; /* 幅は自動的に調整されます */
             padding: 0px 20px;
         }
@@ -212,11 +212,11 @@ header img {
 }
 
     .hamburger-icon {
-        padding: 0 10px; /* パディングを調整 */
+        padding: 0 5px; /* パディングを調整 */
     }
 
     .menu {
-        padding: 10px; /* パディングを調整 */
+        padding: 5px; /* パディングを調整 */
     }
 
     .menu a {
