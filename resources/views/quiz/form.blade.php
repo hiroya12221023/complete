@@ -240,7 +240,7 @@ header img {
     <header>
     <img src="{{ asset('/images/aa.png') }}" alt="あ">
     <div class="separator"></div>
-    <a href="/#overview" class="overview">概要</a>
+    <a href="/#overview" class="overview">あ概要</a>
     <div class="separator"></div>
    <a href="/#feature-section" class="features">機能</a>
     <div class="separator"></div>
