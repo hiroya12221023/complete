@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>kuis</title>
     
        
@@ -197,6 +197,11 @@ a:hover {
        max-width: 100%;
   height: atuo;
 }
+header img {
+            height: 60px;
+            width: auto; /* 幅は自動的に調整されます */
+            padding: 0px 20px;
+        }
 
     .separator {
         margin: 0 auto; /* マージンを調整 */
