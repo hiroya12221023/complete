@@ -186,6 +186,51 @@ a:hover {
 .overview:hover {
     color: orange;
 }
+    @media screen and (max-width: 767px) {
+    /* スマートフォン向けのスタイルを指定 */
+
+    body {
+        font-size: 14px; /* フォントサイズを調整 */
+    }
+
+    header {
+        padding: 10px; /* パディングを調整 */
+    }
+
+    .separator {
+        margin: 0 auto; /* マージンを調整 */
+    }
+
+    .hamburger-icon {
+        padding: 0 10px; /* パディングを調整 */
+    }
+
+    .menu {
+        padding: 10px; /* パディングを調整 */
+    }
+
+    .menu a {
+        font-size: 14px; /* フォントサイズを調整 */
+        margin-bottom: 5px; /* マージンを調整 */
+    }
+
+    .tomo, .quiz {
+        margin-top: 50px; /* マージンを調整 */
+        width: auto; /* 横幅を自動調整 */
+    }
+
+    .quiz {
+        width: auto; /* 横幅を自動調整 */
+    }
+
+    .quiz input[type="text"] {
+        width: 100%; /* テキスト入力フィールドの横幅を100%に設定 */
+        margin-bottom: 10px; /* マージンを調整 */
+    }
+
+    /* 他の要素やスタイルを調整 */
+}
+}
     </style>
     </head>
     <body>
