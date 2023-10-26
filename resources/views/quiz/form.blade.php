@@ -194,9 +194,9 @@ a:hover {
     }
 
     header {
-        padding: 10px; /* パディングを調整 */
-        width: auto; /* 横幅を自動調整 */
-    }
+       max-width: 100%;
+  height: atuo;
+}
 
     .separator {
         margin: 0 auto; /* マージンを調整 */
