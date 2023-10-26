@@ -76,20 +76,19 @@ header img {
             width: auto; /* 幅は自動的に調整されます */
             padding: 0px 200px;
         }
-
-        header {
+header {
     position: fixed;
-    display: flex; /* 横並びにするために追加 */
-  justify-content: space-around; /* 子要素を均等に配置 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    width: 100%; /* 画面幅いっぱいに広げる */
+    height: 90px; /* ヘッダーの高さを設定 */
     border-bottom: 2px solid #000;
-    padding:-30px -100px;
+    background-color: white;
     z-index: 1000;
     transition: color 0.3s;
-    margin-bottom: 520px; /* 下部に余白を追加 */
-   background-color: white;
-   height: 70px;
 }
 
         .header-text {
@@ -233,6 +232,7 @@ header img {
         padding: 10px; /* パディングを小さくする */
         font-size: 10px; /* テキストのフォントサイズを小さくする */
         margin-bottom: 8px; /* マージンを少し小さくする */
+        margin: 100px 30px 0px 20px;
     }
     </style>
 </head>
