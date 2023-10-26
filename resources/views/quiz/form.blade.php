@@ -224,10 +224,7 @@ header img {
         margin-top: 50px; /* マージンを調整 */
         width: auto; /* 横幅を自動調整 */
     }
-
-    .quiz {
-        width: auto; /* 横幅を自動調整 */
-    }
+    
 
     .quiz input[type="text"] {
         width: 100%; /* テキスト入力フィールドの横幅を100%に設定 */
